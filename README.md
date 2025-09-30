@@ -22,6 +22,7 @@ We need the `math` library for the square root function.
 
 ```python
 import math
+```
 
 ## Step 2: Define the Quadric Formula
 Follow the following code
@@ -40,3 +41,4 @@ def quadratic_formula(a, b, c):
     root2 = (-b - math.sqrt(d)) / (2*a)
     
     return root1, root2
+```
