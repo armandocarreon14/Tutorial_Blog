@@ -1,11 +1,24 @@
-# How to Solve Quadratic Equations
+# How to Solve Quadratic Equations in Python
 
-## What a Quadratic Equation is
-A quadratic equation is a polynomial equation of degree two, meaning the highest power of the variable is two. The standard form of a quadratic equation is ax² + bx + c = 0, where 'x' is the variable and 'a', 'b', and 'c' are constants, with the crucial condition that a cannot be zero (a ≠ 0).
+## Introduction  
+Quadratic equations appear in many areas such as physics, engineering, and finance. They follow the form:  
 
+\[
+ax^2 + bx + c = 0
+\]  
+
+The quadratic formula gives us the solutions (roots):  
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]  
+
+In this tutorial, we’ll write a simple Python program that solves quadratic equations step by step.
+
+---
+
+## Step 1: Import the Math Library  
+We need the `math` library for the square root function.  
 
 ```python
-def hello():
-    print("Hello, world!")
-
-hello()
+import math
