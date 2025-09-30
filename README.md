@@ -59,20 +59,17 @@ Your output should be
 
 ## Exercises to practice
 
-## Exercises to Practice
-
 Now it’s your turn! Try solving these equations using your `quadratic_formula` function
 
 1. \(x^2 - 5x + 6 = 0\)  
 
 2. \(x^2 + 4x + 4 = 0\)  
 
-3. \(2x^2 + x + 5 = 0\)  
-
-To check, run:
+3. \(2x^2 + x + 5 = 0\)
+   
+Hint for the first example:
 
 ```python
-print(quadratic_formula(1, -5, 6))   # Example 1
-print(quadratic_formula(1, 4, 4))    # Example 2
-print(quadratic_formula(2, 1, 5))    # Example 3
+print(quadratic_formula(1, -5, 6))  
+
 
