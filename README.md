@@ -59,4 +59,23 @@ Your output should be
 
 ## Exercises to practice
 
+## Exercises to Practice
+
+Now it’s your turn! Try solving these equations using your `quadratic_formula` function
+
+1. \(x^2 - 5x + 6 = 0\)  
+   *(Hint: a = 1, b = -5, c = 6 → expect two real roots)*  
+
+2. \(x^2 + 4x + 4 = 0\)  
+   *(Hint: a = 1, b = 4, c = 4 → expect a single repeated root)*  
+
+3. \(2x^2 + x + 5 = 0\)  
+   *(Hint: a = 2, b = 1, c = 5 → expect no real roots)*  
+
+To check, run:
+
+```python
+print(quadratic_formula(1, -5, 6))   # Example 1
+print(quadratic_formula(1, 4, 4))    # Example 2
+print(quadratic_formula(2, 1, 5))    # Example 3
 
