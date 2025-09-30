@@ -55,3 +55,8 @@ Your output should be
 (0.5, -2.0)
 ```
 
+---
+
+## Exercises to practice
+
+
