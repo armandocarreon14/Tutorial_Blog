@@ -22,3 +22,21 @@ We need the `math` library for the square root function.
 
 ```python
 import math
+
+## Step 2: Define the Quadric Formula
+Follow the following code
+
+```python
+def quadratic_formula(a, b, c):
+    # calculate the discriminant
+    d = b**2 - 4*a*c
+    
+    # check if roots are real
+    if d < 0:
+        return "No real roots"
+    
+    # calculate the two solutions
+    root1 = (-b + math.sqrt(d)) / (2*a)
+    root2 = (-b - math.sqrt(d)) / (2*a)
+    
+    return root1, root2
