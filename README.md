@@ -80,6 +80,7 @@ Hint for the first example:
 
 ```python
 print(quadratic_formula(1, -5, 6))  
+```
 
 ---
 
