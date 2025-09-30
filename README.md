@@ -25,7 +25,7 @@ import math
 ```
 
 ## Step 2: Define the Quadric Formula
-Follow the following code
+Try using the following code
 
 ```python
 def quadratic_formula(a, b, c):
