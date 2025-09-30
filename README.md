@@ -42,3 +42,16 @@ def quadratic_formula(a, b, c):
     
     return root1, root2
 ```
+
+## Step 3: Time to see if it actually works!
+Use the following code to test your work
+
+```python
+print(quadratic_formula(2, 3, -2))
+```
+
+Your output should be
+```python
+(0.5, -2.0)
+```
+
